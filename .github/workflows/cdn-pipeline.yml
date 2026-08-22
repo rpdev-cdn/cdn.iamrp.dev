@@ -1,0 +1,58 @@
+name: CDN Pipeline
+
+# Trigger the pipeline only when changes are pushed to the main branch
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'images/**'
+      - 'CNAME'
+
+jobs:
+  edge-optimization:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to commit optimized files back to the repo
+
+    steps:
+      - name: Checkout Edge State
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: SOP Enforcement - Verify CNAME Routing
+        run: |
+          if [ ! -f "CNAME" ]; then
+            echo "CRITICAL ARCHITECTURE FAILURE: CNAME file is missing. GitHub Pages edge routing will fail."
+            exit 1
+          fi
+
+      - name: Provision Bare-Metal Dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y webp optipng
+
+      - name: Pipeline Phase 1 - Lossless PNG Optimization (Schematics)
+        # Strips hidden metadata/EXIF and applies lossless compression to hardware diagrams
+        run: |
+          find ./images -type f -name '*.png' -exec optipng -o2 -strip all {} \;
+
+      - name: Pipeline Phase 2 - Standardize to WebP (Photographs)
+        # Converts standard photos to next-gen WebP format at 80% quality, then deletes the heavy originals
+        run: |
+          find ./images -type f \( -name '*.jpg' -o -name '*.jpeg' \) | while read -r file; do
+            webp_file="${file%.*}.webp"
+            # Only convert if the webp doesn't already exist to save compute time
+            if [ ! -f "$webp_file" ]; then
+              cwebp -q 80 "$file" -o "$webp_file"
+              rm "$file"
+            fi
+          done
+
+      - name: Commit Optimized Artifacts to Origin
+        # Commits the newly optimized files back to the repository autonomously
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "ci: automated edge asset optimization"
+          branch: main
+          file_pattern: 'images/**'
