@@ -57,24 +57,24 @@ This document provides a machine-readable directory of all available assets host
 - `fonts/roboto/roboto-latin-700-normal.woff2`
 
 ### JetBrains Mono
-- `fonts/JetBrainsMono-Bold.woff2`
-- `fonts/JetBrainsMono-BoldItalic.woff2`
-- `fonts/JetBrainsMono-ExtraBold.woff2`
-- `fonts/JetBrainsMono-ExtraBoldItalic.woff2`
-- `fonts/JetBrainsMono-ExtraLight.woff2`
-- `fonts/JetBrainsMono-ExtraLightItalic.woff2`
-- `fonts/JetBrainsMono-Italic.woff2`
-- `fonts/JetBrainsMono-Italic[wght].woff2`
-- `fonts/JetBrainsMono-Light.woff2`
-- `fonts/JetBrainsMono-LightItalic.woff2`
-- `fonts/JetBrainsMono-Medium.woff2`
-- `fonts/JetBrainsMono-MediumItalic.woff2`
-- `fonts/JetBrainsMono-Regular.woff2`
-- `fonts/JetBrainsMono-SemiBold.woff2`
-- `fonts/JetBrainsMono-SemiBoldItalic.woff2`
-- `fonts/JetBrainsMono-Thin.woff2`
-- `fonts/JetBrainsMono-ThinItalic.woff2`
-- `fonts/JetBrainsMono[wght].woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-Bold.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-BoldItalic.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-ExtraBold.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-ExtraBoldItalic.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-ExtraLight.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-ExtraLightItalic.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-Italic.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-Italic[wght].woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-Light.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-LightItalic.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-Medium.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-MediumItalic.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-Regular.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-SemiBold.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-SemiBoldItalic.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-Thin.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono-ThinItalic.woff2`
+- `fonts/jetbrains-mono/JetBrainsMono[wght].woff2`
 
 ## Images (`/images/`)
 - `images/avatars/1x1-00000000.png`
