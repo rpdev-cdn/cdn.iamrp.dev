@@ -7,7 +7,7 @@
   max-width: 1100px;
   margin: 1.5rem auto 3rem auto;
   font-family: "JetBrains Mono", monospace !important;
-  color: var(--darkgray, #e2e1e8);
+  color: var(--darkgray, #cccccc);
   box-sizing: border-box;
 }
 
@@ -43,11 +43,11 @@
 .di-neo-card {
   position: relative;
   z-index: 2;
-  background-color: var(--lightgray, #1e1b2e) !important;
-  border: 2px solid var(--gray, #8b889c) !important;
+  background-color: var(--lightgray, #1c1c1c) !important;
+  border: 2px solid var(--gray, #767676) !important;
   border-radius: 0.5rem;
   padding: 1.5rem;
-  color: var(--darkgray, #e2e1e8) !important;
+  color: var(--darkgray, #cccccc) !important;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -76,7 +76,7 @@
 
 .di-input-hint {
   font-size: 0.75rem;
-  color: var(--gray, #8b889c) !important;
+  color: var(--gray, #767676) !important;
 }
 
 .di-input-wrapper {
@@ -87,10 +87,10 @@
 .di-input {
   width: 100%;
   padding: 0.85rem 1rem;
-  border: 2px solid var(--gray, #8b889c) !important;
+  border: 2px solid var(--gray, #767676) !important;
   border-radius: 0.375rem;
   font-size: 0.95rem;
-  background-color: var(--light, #0d0914) !important;
+  background-color: var(--light, #000000) !important;
   color: var(--dark, #ffffff) !important;
   position: relative;
   z-index: 2;
@@ -149,7 +149,7 @@
   padding: 0.75rem 1.25rem;
   font-weight: 700;
   font-size: 0.9rem;
-  border: 2px solid var(--gray, #8b889c);
+  border: 2px solid var(--gray, #767676);
   border-radius: 0.375rem;
   cursor: pointer;
   text-decoration: none !important;
@@ -184,7 +184,7 @@
 }
 
 .di-btn.di-btn-secondary {
-  background-color: var(--lightgray, #1e1b2e) !important;
+  background-color: var(--lightgray, #1c1c1c) !important;
   border-color: var(--secondary, #00afaf) !important;
   color: var(--secondary, #00afaf) !important;
 }
@@ -196,9 +196,9 @@
 }
 
 .di-btn.di-btn-neutral {
-  background-color: var(--light, #0d0914) !important;
-  border-color: var(--gray, #8b889c) !important;
-  color: var(--darkgray, #e2e1e8) !important;
+  background-color: var(--light, #000000) !important;
+  border-color: var(--gray, #767676) !important;
+  color: var(--darkgray, #cccccc) !important;
 }
 
 .di-btn.di-btn-neutral:hover:not(:disabled) {
@@ -212,7 +212,7 @@
 
 /* Progress and Metrics */
 .di-progress-container {
-  background-color: var(--lightgray, #1e1b2e) !important;
+  background-color: var(--lightgray, #1c1c1c) !important;
   border: 2px solid var(--secondary, #00afaf) !important;
   border-radius: 0.5rem;
   padding: 1.25rem;
@@ -222,8 +222,8 @@
 
 .di-progress-bar-bg {
   height: 10px;
-  background-color: var(--light, #0d0914);
-  border: 1px solid var(--gray, #8b889c);
+  background-color: var(--light, #000000);
+  border: 1px solid var(--gray, #767676);
   border-radius: 4px;
   overflow: hidden;
   position: relative;
@@ -245,8 +245,8 @@
 .di-range-track {
   position: relative;
   height: 8px;
-  background: var(--light, #0d0914);
-  border: 1px solid var(--gray, #8b889c);
+  background: var(--light, #000000);
+  border: 1px solid var(--gray, #767676);
   border-radius: 4px;
 }
 
@@ -272,11 +272,11 @@
 
 /* Debug & Logs Console */
 .di-terminal-box {
-  background: var(--light, #0d0914) !important;
-  border: 2px solid var(--gray, #8b889c) !important;
+  background: var(--light, #000000) !important;
+  border: 2px solid var(--gray, #767676) !important;
   border-radius: 0.5rem;
   padding: 1rem;
-  color: var(--darkgray, #e2e1e8) !important;
+  color: var(--darkgray, #cccccc) !important;
   font-family: "JetBrains Mono", monospace !important;
   font-size: 0.85rem;
   max-height: 250px;
@@ -292,11 +292,11 @@
   align-items: center;
   margin-bottom: 0.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--lightgray, #1e1b2e);
+  border-bottom: 1px solid var(--lightgray, #1c1c1c);
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--gray, #8b889c) !important;
+  color: var(--gray, #767676) !important;
 }
 
 /* Search Bar */
@@ -332,7 +332,7 @@
 
 .di-doc-meta {
   font-size: 0.85rem;
-  color: var(--gray, #8b889c) !important;
+  color: var(--gray, #767676) !important;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -360,7 +360,7 @@
 
 .di-modal-dialog {
   position: relative;
-  background-color: var(--light, #0d0914) !important;
+  background-color: var(--light, #000000) !important;
   border: 3px solid var(--secondary, #00afaf) !important;
   border-radius: 0.75rem;
   width: 100%;
@@ -375,11 +375,11 @@
 
 .di-modal-header {
   padding: 1.25rem 1.5rem;
-  border-bottom: 2px solid var(--lightgray, #1e1b2e);
+  border-bottom: 2px solid var(--lightgray, #1c1c1c);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--lightgray, #1e1b2e) !important;
+  background-color: var(--lightgray, #1c1c1c) !important;
 }
 
 .di-modal-title {
@@ -396,17 +396,17 @@
   font-family: "JetBrains Mono", monospace !important;
   font-size: 0.9rem;
   line-height: 1.6;
-  color: var(--darkgray, #e2e1e8) !important;
-  background-color: var(--light, #0d0914) !important;
+  color: var(--darkgray, #cccccc) !important;
+  background-color: var(--light, #000000) !important;
 }
 
 .di-modal-footer {
   padding: 1rem 1.5rem;
-  border-top: 2px solid var(--lightgray, #1e1b2e);
+  border-top: 2px solid var(--lightgray, #1c1c1c);
   display: flex;
   justify-content: flex-end;
   gap: 0.75rem;
-  background-color: var(--lightgray, #1e1b2e) !important;
+  background-color: var(--lightgray, #1c1c1c) !important;
 }
 
 /* Loading Spinner */
