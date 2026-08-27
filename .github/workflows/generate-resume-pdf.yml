@@ -97,15 +97,21 @@ jobs:
 
           temp_raw_pdf = os.path.join(PUBLIC_DIR, 'raw_resume.pdf')
           node_render_script = f'''
+          const fs = require('fs');
           const puppeteer = require('puppeteer');
           (async () => {{
-            const browser = await puppeteer.launch({{
+            const launchOpts = {{
               headless: 'new',
               args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu']
-            }});
+            }};
+            if (fs.existsSync('/usr/bin/chromium')) {{
+              launchOpts.executablePath = '/usr/bin/chromium';
+            }}
+            const browser = await puppeteer.launch(launchOpts);
             const page = await browser.newPage();
             await page.setViewport({{ width: 1200, height: 1600 }});
-            await page.goto('http://127.0.0.1:{PORT}/resume/master_resume', {{ waitUntil: 'networkidle0' }});
+            await page.goto('http://127.0.0.1:{PORT}/resume/master_resume', {{ waitUntil: 'domcontentloaded', timeout: 30000 }});
+            await new Promise(r => setTimeout(r, 2000));
             await page.evaluate(() => {{
               const hideSelectors = ['.sidebar', '.page-header', 'footer', '.toc', '.breadcrumb-container', '.footer-git-info', '.backlinks', '.graph'];
               hideSelectors.forEach(selector => {{
