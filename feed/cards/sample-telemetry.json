@@ -1,0 +1,10 @@
+{
+  "status": "HEALTHY",
+  "message": "RPDev Bare-Metal Telemetry & Edge Fleet",
+  "node": "llmadmin01",
+  "uptime": "99.98%",
+  "docker_containers": 18,
+  "vpn_status": "CONNECTED",
+  "active_emulators": "DevPixel (A14), DevPixel16 (A16)",
+  "edge_proxy": "Cloudflare Full Strict (cdn.iamrp.dev)"
+}

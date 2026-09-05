@@ -1,0 +1,11 @@
+{
+  "packageName": "iamrp.dev.launcher",
+  "versionCode": 1100,
+  "versionName": "v1.1.0",
+  "releaseDate": "2026-09-03",
+  "minSdk": 34,
+  "targetSdk": 37,
+  "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Launcher/releases/download/v1.1.0/RPDev-Launcher-v1.1.0.apk",
+  "releaseNotes": "Nova Launcher privacy features (Local Math Engine, Privacy Search, Desktop Subgrid, Dock Search), hardened Feed Provider selection, and fluid nested folders.",
+  "sha256": "3da0c2a2751f893e3d4cbbfa07baec5beec76b7bfa9c3be6ef41470fafe65243"
+}

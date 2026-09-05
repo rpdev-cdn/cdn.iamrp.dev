@@ -1,0 +1,21 @@
+{
+  "name": "RPDev Edge CDN",
+  "short_name": "CDN",
+  "icons": [
+    {
+      "src": "/favicons/cdn/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicons/cdn/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "theme_color": "#f59e0b",
+  "background_color": "#b45309",
+  "display": "standalone"
+}

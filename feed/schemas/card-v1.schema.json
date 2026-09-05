@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HubCardData",
+  "description": "Standard schema for feed cards delivered to RPDev Feed left-swipe screen",
+  "type": "object",
+  "required": [
+    "pluginId",
+    "title"
+  ],
+  "properties": {
+    "pluginId": {
+      "type": "string",
+      "description": "Unique identifier of the plugin or feed source"
+    },
+    "title": {
+      "type": "string",
+      "description": "Primary card header"
+    },
+    "subtitle": {
+      "type": "string",
+      "description": "Secondary contextual text or status description"
+    },
+    "badge": {
+      "type": "string",
+      "description": "Top-right status badge (e.g. OK, 24°C, 3 unread)"
+    },
+    "chips": {
+      "type": "array",
+      "description": "Interactive or informational badge chips",
+      "items": {
+        "type": "object",
+        "required": [
+          "label"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "actionUrl": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "timelineItems": {
+      "type": "array",
+      "description": "Sub-items list or event sequence",
+      "items": {
+        "type": "object",
+        "required": [
+          "title"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string"
+          },
+          "statusSuccess": {
+            "type": "boolean"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "description": "Action buttons rendered at card bottom",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "url"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "isPrimary": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

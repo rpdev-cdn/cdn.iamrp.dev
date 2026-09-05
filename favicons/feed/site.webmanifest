@@ -1,0 +1,21 @@
+{
+  "name": "RPDev Feed",
+  "short_name": "Feed",
+  "icons": [
+    {
+      "src": "/favicons/feed/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicons/feed/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "theme_color": "#0284c7",
+  "background_color": "#0369a1",
+  "display": "standalone"
+}

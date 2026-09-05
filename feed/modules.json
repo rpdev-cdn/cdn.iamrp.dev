@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules",
+  "lastUpdated": "2026-09-05T16:40:00Z",
+  "modules": [
+    {
+      "id": "plugin_weather",
+      "name": "Privacy Weather",
+      "category": "Weather & Environment",
+      "summary": "Zero-telemetry live weather, radar, and hourly forecast from Open-Meteo.",
+      "description": "Comprehensive weather card with temperature, feels-like, humidity, wind speeds, and hourly forecast from Open-Meteo with no user tracking. Supports location search by address/zip and optional GPS location access.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "SunDim",
+      "isDefaultInstalled": true,
+      "configFields": [
+        {
+          "key": "location_name",
+          "label": "Location Name",
+          "defaultValue": "New York, NY",
+          "description": "City / Region display name."
+        },
+        {
+          "key": "latitude",
+          "label": "Latitude",
+          "defaultValue": "40.7128",
+          "description": "Latitude coordinate."
+        },
+        {
+          "key": "longitude",
+          "label": "Longitude",
+          "defaultValue": "-74.0060",
+          "description": "Longitude coordinate."
+        },
+        {
+          "key": "use_fahrenheit",
+          "label": "Use Fahrenheit (\u00b0F)",
+          "defaultValue": "false",
+          "description": "Toggle between Celsius and Fahrenheit units."
+        }
+      ],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_weather.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_weather-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/weather"
+    },
+    {
+      "id": "plugin_sensors",
+      "name": "Hardware & Battery Telemetry",
+      "category": "System & Hardware",
+      "summary": "Real-time battery charging wattage, voltage, temperature, internal storage, and RAM memory pressure.",
+      "description": "Live device diagnostics card displaying real-time battery percentage, charging wattage, battery temperature, RAM usage, and available internal disk storage.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "BatteryCharging",
+      "isDefaultInstalled": true,
+      "configFields": [],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_sensors.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_sensors-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/sensors"
+    },
+    {
+      "id": "plugin_calendar",
+      "name": "Calendar Agenda",
+      "category": "Productivity & Calendar",
+      "summary": "On-device agenda engine querying your upcoming 24-hour schedule.",
+      "description": "Displays upcoming calendar events from on-device Android calendars with zero telemetry. Automatically highlights all-day events and provides 1-tap navigation to the default calendar app.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "Calendar",
+      "isDefaultInstalled": false,
+      "configFields": [
+        {
+          "key": "lookahead_hours",
+          "label": "Lookahead Window (Hours)",
+          "defaultValue": "24",
+          "description": "How many hours in the future to scan for calendar events."
+        },
+        {
+          "key": "show_all_day",
+          "label": "Show All-Day Events",
+          "defaultValue": "true",
+          "description": "Include full-day events in the agenda timeline."
+        }
+      ],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_calendar.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_calendar-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/calendar"
+    },
+    {
+      "id": "plugin_github",
+      "name": "GitHub Pulse",
+      "category": "Developer & Code",
+      "summary": "Live GitHub PR review requests, workflow CI runs, assigned issues, and commit activity.",
+      "description": "Connects to the GitHub API via personal access token to track open pull requests, continuous integration workflow results across your repositories, and unread notifications.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "GitBranch",
+      "isDefaultInstalled": false,
+      "configFields": [
+        {
+          "key": "username",
+          "label": "GitHub Username / Org",
+          "defaultValue": "RPDevs-Builds",
+          "description": "GitHub username or organization to track."
+        },
+        {
+          "key": "token",
+          "label": "GitHub Personal Access Token",
+          "defaultValue": "",
+          "description": "GitHub PAT with repo and notifications read permissions."
+        },
+        {
+          "key": "tracked_repos",
+          "label": "Tracked Repositories (owner/repo)",
+          "defaultValue": "RPDevs-Builds/RPDev-Feed, RPDevs-Builds/RPDev-Feed-Modules",
+          "description": "Comma-separated list of GitHub repositories to query for CI workflows."
+        }
+      ],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_github.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_github-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/github"
+    },
+    {
+      "id": "plugin_web_scraper",
+      "name": "Webpage Monitor & Keyword Scraper",
+      "category": "Developer & Code",
+      "summary": "Scrape websites, track content changes via MD5 hash diffs, and monitor specific keywords or alerts.",
+      "description": "Periodic HTML scraping engine using Jsoup. Monitors target URLs for content modifications or specific keyword appearances, displaying alerts and direct links in the feed.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "Globe",
+      "isDefaultInstalled": false,
+      "configFields": [
+        {
+          "key": "scrape_url",
+          "label": "Target Webpage URL",
+          "defaultValue": "https://github.blog/news-insights/product-news/",
+          "description": "The URL of the webpage to scrape and monitor."
+        },
+        {
+          "key": "keywords",
+          "label": "Monitored Keywords (comma-separated)",
+          "defaultValue": "release, update, android, security",
+          "description": "Keywords that trigger an alert when detected in the scraped HTML."
+        },
+        {
+          "key": "css_selector",
+          "label": "CSS Selector (Optional)",
+          "defaultValue": "article, main, .content, body",
+          "description": "Optional CSS selector to scope content extraction (e.g., 'article' or 'div.posts')."
+        },
+        {
+          "key": "display_title",
+          "label": "Card Display Title",
+          "defaultValue": "Webpage Monitor",
+          "description": "Title shown on the Hub feed card."
+        }
+      ],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_web_scraper.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_web_scraper-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/web-scraper"
+    },
+    {
+      "id": "plugin_dynamic_rest",
+      "name": "Custom REST / JSON Endpoint",
+      "category": "Custom REST / Webhooks",
+      "summary": "Poll arbitrary HTTP JSON APIs (Home Assistant, Uptime Kuma, Gotify, Docker) and render as cards.",
+      "description": "Declarative JSON REST client that executes periodic HTTP GET requests with custom headers, extracting JSON keys using dot-notation into chips, status badges, and timeline items.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "Cloud",
+      "isDefaultInstalled": false,
+      "configFields": [
+        {
+          "key": "rest_url",
+          "label": "REST Endpoint URL",
+          "defaultValue": "https://api.github.com/zen",
+          "description": "HTTP/HTTPS URL returning JSON or plain text."
+        },
+        {
+          "key": "auth_header",
+          "label": "Authorization Header (Optional)",
+          "defaultValue": "",
+          "description": "Bearer token or API Key (e.g. 'Bearer token123')."
+        },
+        {
+          "key": "json_title_path",
+          "label": "JSON Path for Title / Message",
+          "defaultValue": "message",
+          "description": "JSON field path for card message (e.g. 'status', 'summary', or 'message')."
+        },
+        {
+          "key": "display_title",
+          "label": "Module Title",
+          "defaultValue": "REST Monitor",
+          "description": "Card title to display on feed."
+        }
+      ],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_dynamic_rest.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_dynamic_rest-v1.1.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/dynamic-rest"
+    },
+    {
+      "id": "module_home_assistant",
+      "name": "Home Assistant State Monitor",
+      "category": "Smart Home & IoT",
+      "summary": "Display smart home entity states, temperature sensors, lights, and climate controls.",
+      "description": "Integrates with Home Assistant REST API to display real-time sensor states, presence detection, and environment telemetry directly in the RPDev Feed.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "House",
+      "isDefaultInstalled": false,
+      "configFields": [
+        {
+          "key": "ha_url",
+          "label": "Home Assistant Base URL",
+          "defaultValue": "http://homeassistant.local:8123",
+          "description": "URL of your local or remote Home Assistant instance."
+        },
+        {
+          "key": "ha_token",
+          "label": "Long-Lived Access Token",
+          "defaultValue": "",
+          "description": "Long-lived access token generated from Home Assistant profile."
+        },
+        {
+          "key": "ha_entities",
+          "label": "Entity IDs (comma-separated)",
+          "defaultValue": "sensor.living_room_temperature, climate.thermostat, light.desk",
+          "description": "Home Assistant entity IDs to track."
+        }
+      ],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_home_assistant.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_home_assistant-v1.0.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/home-assistant"
+    },
+    {
+      "id": "module_docker_telemetry",
+      "name": "Docker & Fleet Health Monitor",
+      "category": "DevOps & Infrastructure",
+      "summary": "Track container statuses, CPU/memory consumption, and uptime across host nodes.",
+      "description": "Polls Docker daemon or Portainer API endpoints to display active container counts, failed health checks, and server load metrics.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "Cpu",
+      "isDefaultInstalled": false,
+      "configFields": [
+        {
+          "key": "docker_endpoint",
+          "label": "Portainer / Docker API URL",
+          "defaultValue": "http://192.168.1.100:9000/api/endpoints/1/docker/containers/json",
+          "description": "REST API endpoint returning Docker container list JSON."
+        },
+        {
+          "key": "api_key",
+          "label": "API Key / Token",
+          "defaultValue": "",
+          "description": "Portainer API Token or proxy bearer token."
+        }
+      ],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_docker_telemetry.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_docker_telemetry-v1.0.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/docker-telemetry"
+    },
+    {
+      "id": "module_uptime_kuma",
+      "name": "Uptime Kuma Status Monitor",
+      "category": "DevOps & Infrastructure",
+      "summary": "Monitor service uptime, response latencies, and incident status from Uptime Kuma.",
+      "description": "Fetches service status pages and heartbeat data from self-hosted Uptime Kuma monitoring instances.",
+      "version": "1.0.1",
+      "author": "RPDevs",
+      "icon": "Activity",
+      "isDefaultInstalled": false,
+      "configFields": [
+        {
+          "key": "kuma_url",
+          "label": "Uptime Kuma Status Page URL",
+          "defaultValue": "https://status.example.com/api/status-page/heartbeat/default",
+          "description": "Heartbeat or metrics API endpoint from Uptime Kuma."
+        }
+      ],
+      "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_uptime_kuma.apk",
+      "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_uptime_kuma-v1.0.0.apk",
+      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/uptime-kuma"
+    }
+  ],
+  "cdnOrigin": "https://cdn.iamrp.dev",
+  "catalogSchema": "https://cdn.iamrp.dev/feed/schemas/module-manifest.schema.json",
+  "cardSchema": "https://cdn.iamrp.dev/feed/schemas/card-v1.schema.json"
+}

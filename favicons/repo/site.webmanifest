@@ -1,0 +1,21 @@
+{
+  "name": "RPDev Module Repository",
+  "short_name": "RPDev Repo",
+  "icons": [
+    {
+      "src": "/favicons/repo/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicons/repo/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "theme_color": "#10b981",
+  "background_color": "#047857",
+  "display": "standalone"
+}

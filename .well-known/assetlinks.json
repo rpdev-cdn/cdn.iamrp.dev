@@ -1,0 +1,26 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "iamrp.dev.launcher",
+      "sha256_cert_fingerprints": [
+        "B5:12:7B:6C:54:19:62:53:C9:83:9F:50:8A:26:A1:AC:DF:B4:42:F3:33:DE:C2:59:75:E6:B2:D1:6C:53:2B:A3"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "iamrp.dev.feed",
+      "sha256_cert_fingerprints": [
+        "B5:12:7B:6C:54:19:62:53:C9:83:9F:50:8A:26:A1:AC:DF:B4:42:F3:33:DE:C2:59:75:E6:B2:D1:6C:53:2B:A3"
+      ]
+    }
+  }
+]
