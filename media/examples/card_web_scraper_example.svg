@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260">
+  <defs>
+    <linearGradient id="cardGrad_card_web_scraper_example" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181f" />
+      <stop offset="100%" stop-color="#121217" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Body -->
+  <rect x="4" y="4" width="552" height="252" rx="16" fill="url(#cardGrad_card_web_scraper_example)" stroke="#2b2b36" stroke-width="1.5"/>
+
+  <!-- Card Header -->
+  <g transform="translate(24, 20)">
+    <circle cx="16" cy="16" r="16" fill="#242430"/>
+    <text x="16" y="22" font-size="18" text-anchor="middle">🌐</text>
+    <text x="42" y="13" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="10" font-weight="700" fill="#818cf8" letter-spacing="1">DEVELOPER &amp; CODE</text>
+    <text x="42" y="29" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Webpage Monitor &amp; Keyword Scraper</text>
+  </g>
+
+  <!-- Status Badge -->
+  <g transform="translate(400, 24)">
+    <rect width="135" height="24" rx="12" fill="#ec489922" stroke="#ec4899" stroke-width="1"/>
+    <text x="67" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="11" font-weight="600" fill="#ec4899">Content Change Alert</text>
+  </g>
+
+  <!-- Main Headline Metric -->
+  <g transform="translate(24, 80)">
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="24" font-weight="800" fill="#f8fafc">Diff Detected!</text>
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#94a3b8">Target: https://github.blog/news-insights/</text>
+  </g>
+
+  <!-- Chips Grid -->
+    <g transform="translate(24, 155)">
+      <rect width="250" height="34" rx="8" fill="#1e1e24" stroke="#2d2d38" stroke-width="1"/>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#9ca3af">🔍 Matched Keyword</text>
+      <text x="238" y="21" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" font-weight="600" fill="#f3f4f6">android, security</text>
+    </g>
+    <g transform="translate(284, 155)">
+      <rect width="250" height="34" rx="8" fill="#1e1e24" stroke="#2d2d38" stroke-width="1"/>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#9ca3af">🔑 Content Hash</text>
+      <text x="238" y="21" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" font-weight="600" fill="#f3f4f6">MD5: 8f4a9b... (Modified)</text>
+    </g>
+    <g transform="translate(24, 197)">
+      <rect width="250" height="34" rx="8" fill="#1e1e24" stroke="#2d2d38" stroke-width="1"/>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#9ca3af">⏱️ Last Checked</text>
+      <text x="238" y="21" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" font-weight="600" fill="#f3f4f6">6 minutes ago</text>
+    </g>
+    <g transform="translate(284, 197)">
+      <rect width="250" height="34" rx="8" fill="#1e1e24" stroke="#2d2d38" stroke-width="1"/>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#9ca3af">📄 Extracted Nodes</text>
+      <text x="238" y="21" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" font-weight="600" fill="#f3f4f6">4 Articles Found</text>
+    </g>
+
+  <!-- Footer -->
+  <text x="24" y="244" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="10" fill="#64748b">Local HTML parsing via Jsoup • Direct Alerts</text>
+</svg>

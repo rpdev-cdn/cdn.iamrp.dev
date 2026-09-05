@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260">
+  <defs>
+    <linearGradient id="cardGrad_card_home_assistant_example" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181f" />
+      <stop offset="100%" stop-color="#121217" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Body -->
+  <rect x="4" y="4" width="552" height="252" rx="16" fill="url(#cardGrad_card_home_assistant_example)" stroke="#2b2b36" stroke-width="1.5"/>
+
+  <!-- Card Header -->
+  <g transform="translate(24, 20)">
+    <circle cx="16" cy="16" r="16" fill="#242430"/>
+    <text x="16" y="22" font-size="18" text-anchor="middle">🏠</text>
+    <text x="42" y="13" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="10" font-weight="700" fill="#818cf8" letter-spacing="1">SMART HOME &amp; IOT</text>
+    <text x="42" y="29" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Home Assistant State Monitor</text>
+  </g>
+
+  <!-- Status Badge -->
+  <g transform="translate(400, 24)">
+    <rect width="135" height="24" rx="12" fill="#3b82f622" stroke="#3b82f6" stroke-width="1"/>
+    <text x="67" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="11" font-weight="600" fill="#3b82f6">Home Assistant</text>
+  </g>
+
+  <!-- Main Headline Metric -->
+  <g transform="translate(24, 80)">
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="24" font-weight="800" fill="#f8fafc">Living Room: 71.5°F</text>
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#94a3b8">HVAC: Idle • Presence: Home (2 people)</text>
+  </g>
+
+  <!-- Chips Grid -->
+    <g transform="translate(24, 155)">
+      <rect width="250" height="34" rx="8" fill="#1e1e24" stroke="#2d2d38" stroke-width="1"/>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#9ca3af">💡 Desk Lamp</text>
+      <text x="238" y="21" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" font-weight="600" fill="#f3f4f6">ON (80% Warm)</text>
+    </g>
+    <g transform="translate(284, 155)">
+      <rect width="250" height="34" rx="8" fill="#1e1e24" stroke="#2d2d38" stroke-width="1"/>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#9ca3af">🌡️ Studio Temp</text>
+      <text x="238" y="21" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" font-weight="600" fill="#f3f4f6">69.8°F</text>
+    </g>
+    <g transform="translate(24, 197)">
+      <rect width="250" height="34" rx="8" fill="#1e1e24" stroke="#2d2d38" stroke-width="1"/>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#9ca3af">🚪 Front Door</text>
+      <text x="238" y="21" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" font-weight="600" fill="#f3f4f6">Locked (Secure)</text>
+    </g>
+    <g transform="translate(284, 197)">
+      <rect width="250" height="34" rx="8" fill="#1e1e24" stroke="#2d2d38" stroke-width="1"/>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" fill="#9ca3af">🔋 Sensor Battery</text>
+      <text x="238" y="21" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="12" font-weight="600" fill="#f3f4f6">94% OK</text>
+    </g>
+
+  <!-- Footer -->
+  <text x="24" y="244" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="10" fill="#64748b">Realtime REST sync • Long-Lived Access Token</text>
+</svg>
