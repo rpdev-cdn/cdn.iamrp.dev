@@ -203,7 +203,7 @@
     {
       "id": "module_home_assistant",
       "name": "Home Assistant State Monitor",
-      "category": "Smart Home & IoT",
+      "category": "IoT & Smart Home",
       "summary": "Display smart home entity states, temperature sensors, lights, and climate controls.",
       "description": "Integrates with Home Assistant REST API to display real-time sensor states, presence detection, and environment telemetry directly in the RPDev Feed.",
       "version": "1.0.1",

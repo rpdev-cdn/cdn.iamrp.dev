@@ -1,0 +1,11 @@
+{
+  "packageName": "iamrp.dev.feed",
+  "versionCode": 1201,
+  "versionName": "v1.2.1",
+  "releaseDate": "2026-09-06",
+  "minSdk": 34,
+  "targetSdk": 37,
+  "downloadUrl": "https://cdn.iamrp.dev/feed/releases/RPDev-Feed-v1.2.1.apk",
+  "releaseNotes": "Production GA graduation, SSRF private IP blocking, Rome XXE protection, signature push receiver permission, lifecycle OverlayView window detachment cleanup, thread-safe ActivityHandler, and verified R8 release shrinking.",
+  "sha256": "8f2f10eda5708280edead1a2ad5f779452802f69a558fc0c230d0d9e8399b9f0"
+}
