@@ -41,7 +41,7 @@
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_weather.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_weather-v1.1.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/weather"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/weather"
     },
     {
       "id": "plugin_sensors",
@@ -56,7 +56,7 @@
       "configFields": [],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_sensors.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_sensors-v1.1.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/sensors"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/sensors"
     },
     {
       "id": "plugin_calendar",
@@ -84,7 +84,7 @@
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_calendar.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_calendar-v1.1.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/calendar"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/calendar"
     },
     {
       "id": "plugin_github",
@@ -118,7 +118,7 @@
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_github.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_github-v1.1.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/github"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/github"
     },
     {
       "id": "plugin_web_scraper",
@@ -158,7 +158,7 @@
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_web_scraper.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_web_scraper-v1.1.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/web-scraper"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/web-scraper"
     },
     {
       "id": "plugin_dynamic_rest",
@@ -198,7 +198,7 @@
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.1.0/plugin_dynamic_rest.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/plugin_dynamic_rest-v1.1.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/dynamic-rest"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/dynamic-rest"
     },
     {
       "id": "module_home_assistant",
@@ -232,7 +232,7 @@
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_home_assistant.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_home_assistant-v1.0.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/home-assistant"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/home-assistant"
     },
     {
       "id": "module_docker_telemetry",
@@ -260,7 +260,7 @@
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_docker_telemetry.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_docker_telemetry-v1.0.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/docker-telemetry"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/docker-telemetry"
     },
     {
       "id": "module_uptime_kuma",
@@ -282,7 +282,7 @@
       ],
       "downloadUrl": "https://github.com/RPDevs-Builds/RPDev-Feed-Modules/releases/download/v1.0.0/module_uptime_kuma.apk",
       "cdnDownloadUrl": "https://cdn.iamrp.dev/feed/modules/module_uptime_kuma-v1.0.0.apk",
-      "documentationUrl": "https://repo.launcher.iamrp.dev/catalog/modules/uptime-kuma"
+      "documentationUrl": "https://launcher.repo.iamrp.dev/catalog/modules/uptime-kuma"
     }
   ],
   "cdnOrigin": "https://cdn.iamrp.dev",
