@@ -1,0 +1,9 @@
+# RFC 9116 Security Policy for RPDev Sovereign Ecosystem
+Contact: mailto:RPDissell@gmail.com
+Encryption: https://cdn.iamrp.dev/keys/pgp.asc
+Canonical: https://cdn.iamrp.dev/.well-known/security.txt
+Preferred-Languages: en
+Policy: https://iamrp.dev/projects/governance-and-policies/information_security_policy
+Acknowledgments: https://iamrp.dev/resume/endorsements_and_references
+Hiring: https://iamrp.dev/
+Expires: 2027-12-31T23:59:59.000Z
