@@ -1,6 +1,9 @@
-# RFC 9116 Security Policy for RPDev Sovereign Ecosystem
-Contact: mailto:RPDissell@gmail.com
+# RFC 9116 Security Vulnerability Disclosure Policy for RPDev Sovereign Fleet
+Contact: mailto:support@iamrp.dev
+Encryption: https://iamrp.dev/pgp.asc
 Encryption: https://cdn.iamrp.dev/keys/pgp.asc
+Encryption: https://cdn.iamrp.dev/pgp.asc
+Canonical: https://iamrp.dev/.well-known/security.txt
 Canonical: https://cdn.iamrp.dev/.well-known/security.txt
 Preferred-Languages: en
 Policy: https://iamrp.dev/projects/governance-and-policies/information_security_policy
